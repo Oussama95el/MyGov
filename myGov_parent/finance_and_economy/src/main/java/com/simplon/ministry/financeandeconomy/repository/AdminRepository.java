@@ -1,0 +1,9 @@
+package com.simplon.ministry.financeandeconomy.repository;
+
+import com.simplon.ministry.financeandeconomy.model.Admin;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface AdminRepository extends JpaRepository<Admin, Long> {
+}

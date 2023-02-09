@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/MyGov.iml" filepath="$PROJECT_DIR$/.idea/MyGov.iml" />
+      <module fileurl="file://$PROJECT_DIR$/finance-and-economy/finance-and-economy.iml" filepath="$PROJECT_DIR$/finance-and-economy/finance-and-economy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/justice/justice.iml" filepath="$PROJECT_DIR$/justice/justice.iml" />
+    </modules>
+  </component>
+</project>
