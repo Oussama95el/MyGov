@@ -3,11 +3,12 @@ package com.simplon.model;
 import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.Hibernate;
+import org.springframework.data.elasticsearch.annotations.Document;
 
 import java.util.List;
 import java.util.Objects;
 
-@Entity
+@Document(indexName = "department")
 @Getter
 @Setter
 @ToString

@@ -3,10 +3,11 @@ package com.simplon.model;
 import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.Hibernate;
+import org.springframework.data.elasticsearch.annotations.Document;
 
 import java.util.Objects;
 
-@Entity
+@Document(indexName = "admin")
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter

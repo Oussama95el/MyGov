@@ -12,10 +12,13 @@
         <module name="inventory-service" />
         <module name="justice-ministry-service" />
         <module name="finance-service" />
+        <module name="gateway-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="finance_and_economy" target="17" />
+      <module name="gateway" target="19" />
+      <module name="gatway" target="19" />
       <module name="justice" target="17" />
       <module name="myGov_parent" target="17" />
     </bytecodeTargetLevel>
@@ -25,6 +28,8 @@
       <module name="discovery-server" options="-parameters" />
       <module name="finance-ministry-service" options="-parameters" />
       <module name="finance-service" options="-parameters" />
+      <module name="gateway-service" options="-parameters" />
+      <module name="gatway" options="-parameters" />
       <module name="inventory-service" options="-parameters" />
       <module name="justice-ministry-service" options="-parameters" />
       <module name="user-service" options="-parameters" />

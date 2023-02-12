@@ -6,11 +6,12 @@ import jakarta.persistence.Id;
 import jakarta.persistence.SequenceGenerator;
 import lombok.*;
 import org.hibernate.Hibernate;
+import org.springframework.data.elasticsearch.annotations.Document;
 
 import java.util.Date;
 import java.util.Objects;
 
-@Entity
+@Document(indexName = "finance")
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
